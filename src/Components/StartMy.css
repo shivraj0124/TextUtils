@@ -1,0 +1,56 @@
+
+.welText{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 6%;
+}
+h2{
+    font-size: 40px;
+}
+.title{
+    animation-name: moveRight;
+    animation-duration: 1.8s;
+}
+.titleTwo{
+    animation-name:moveLeft;
+    animation-duration: 1.7s;
+    
+}
+
+.titleThree{
+    animation-name:moveRight;
+    animation-duration: 1.8s;
+    margin-top: 6%;
+    margin-bottom: 10px;
+    font-size: 28px;
+
+}
+.text{
+    font-size: 28px;
+    color:rgb(228, 228, 13);  
+
+}
+
+
+
+
+@keyframes moveRight {
+    0%{
+        opacity:0;
+        transform:translateX(100px);
+    }
+    100%{
+        opacity:1;
+        transform: translate(0);
+    }
+}
+@keyframes moveLeft {
+    0%{
+        opacity:0;
+        transform:translateX(-150px);
+    }
+    100%{
+        opacity:1;
+        transform: translate(0);
+    }
+}
