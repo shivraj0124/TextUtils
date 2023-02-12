@@ -1,8 +1,13 @@
 
+.outer{
+        text-align: center;
+        margin-top: 4%;     
+}
 .welText{
     font-size: 40px;
     text-align: center;
-    margin-top: 6%;
+    margin-top: 4%;
+    height:280px;
 }
 h2{
     font-size: 40px;
@@ -13,8 +18,7 @@ h2{
 }
 .titleTwo{
     animation-name:moveLeft;
-    animation-duration: 1.7s;
-    
+    animation-duration: 1.7s;   
 }
 
 .titleThree{
@@ -23,14 +27,24 @@ h2{
     margin-top: 6%;
     margin-bottom: 10px;
     font-size: 28px;
-
 }
 .text{
     font-size: 28px;
     color:rgb(228, 228, 13);  
-
 }
 
+.letsTryBtn:hover{
+    background-color: rgb(5, 67, 253);
+}
+@media screen and (min-width:695px){
+    .letsTryBtn {
+            margin-top: 10%;
+        }
+                .welText {
+                   
+                    margin-top: 6%;
+                }
+}
 
 
 

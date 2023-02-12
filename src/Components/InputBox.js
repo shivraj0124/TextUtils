@@ -107,7 +107,7 @@ export default function InputBox(props) {
                 }).length}
           </p>
           <p>Total Characters : {text.length}</p>
-          <p>Time To Required To read :{0.008 * text.split(" ").length}</p>
+          <p>Time Required To read :{0.008 * text.split(" ").length}</p>
           <h2>Preview</h2>
           <p>{text.length === 0? 'Enter text to preview':text}</p>
         </div>
